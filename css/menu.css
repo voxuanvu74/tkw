@@ -1,0 +1,98 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .titlemenu {
+    text-align: center;
+    font-size: 50px;
+  }
+  .title-nav {
+    text-align: center;
+   
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+ 
+ 
+ 
+  /* Menu Section */
+  .menu {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .menu h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+  }
+  
+  .item img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .item p {
+    margin-bottom: 10px;
+  }
+  
+  .item .price {
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
